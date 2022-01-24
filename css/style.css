@@ -7,8 +7,16 @@ font-family: 'Roboto', sans-serif; */
 
 /* common style */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+.font-family-roboto {
+    font-family: 'Roboto', sans-serif;
 }
 
 /* header style */
@@ -20,4 +28,10 @@ body {
 .slider-img {
     height: calc(100vh - 104px);
     object-fit: contain;
+}
+
+/* services section style */
+
+.card-text-color {
+    color: #848199;
 }
